@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tech Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h2>i am happy to be hear</h2>
+    <div class="container">
+        <div id="navbar">
+            <a href="https://hng.tech/learn" class="navbar-button" data-testid="hngLink">HNG Learn</a>
+            <a href="https://keyword.dog" class="navbar-button center" data-testid="keywordLink">Keyword Dog</a>
+            <a href="https://scrapeanyweb.site" class="navbar-button" data-testid="scrapeanywebLink">Scrape Any Web</a>
+        </div>
+        <div id="welcome">
+            <h1>Welcome to my page</h1>
+        </div>
+        <div id="profile-picture">
+            <img src="https://i.postimg.cc/cJqRH2ch/my-photo.jpg" alt="Profile Picture" data-testid="slackProfilePicture" width="1080" height="1080">
+        </div>
+        <div id="home">
+            <div id="current-info">
+                <div id="clock" data-testid="currentTimeUTC">
+                    <div class="circle">
+                        <div id="time">--:--:--</div>
+                    </div>
+                </div>
+                <p id="current-day" data-testid="currentDay">Current Day: <span id="day"></span></p>
+            </div>
+            <div id="future-plans">
+                <h2>Personal Background</h2>
+                <p>
+                    I am Emmanuel, a graduate of Geology who recently discovered a newfound passion for the world of technology. To pursue this passion, I dove headfirst into the field by completing a series of AI career courses with IBM and ALX Africa. I am a dedicated and focused individual who thrives on challenges and enjoys excelling in whatever I undertake. Collaboration is also important to me, and I find working within a team environment highly rewarding.
+                </p>
+                <h2>My Goals</h2>
+                <p>
+                    My future aspirations lie in becoming a full-stack developer by the end of 2025. While my initial journey began with front-end development through courses with IBM, I am eager to expand my knowledge and master back-end development as well. The <a href="https://hng.tech/learn" target="_blank">HNG</a> internship particularly excites me because it represents the starting point of my professional programming journey. I have immense admiration for <a href="https://hng.tech/learn" target="_blank">HNG's</a> innovative approach to technology, and the prospect of being part of such a vibrant community filled with great minds fills me with immense joy.
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <button class="slack-details-button" data-testid="slackDetailsButton">Slack Details</button>
+            <p class="footer-text"><strong>Display name: Emmanuel<br>Email: emmanuelochepeters@gmail.com</strong></p>
+            <button class="github-button" onclick="window.open('https://github.com/Sirspexman1/hng-repo-io', '_blank')">GitHub Repo</button>
+        </div>
+    </div>
 </body>
 </html>

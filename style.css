@@ -1,0 +1,160 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Default background color for the whole page */
+}
+
+/* Main container styling */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #d3d3d3 70%, #5c4033 100%); /* Gray with a flash of brown */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff; /* Fallback background color */
+}
+
+/* Navigation bar styling */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c4033; /* Brown background for the header */
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navbar-button {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000; /* Black background color */
+    border: 2px solid #fff; /* Thick white border */
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #333; /* Darker black on hover */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Welcome section styling */
+#welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#welcome h1 {
+    color: #5c4033; /* Brown color */
+    font-size: 1.8rem; /* Reduced font size */
+    border: 2px solid #fff; /* White border */
+    display: inline-block; /* Ensure border wraps text */
+    padding: 10px; /* Add padding to text */
+}
+
+/* Profile picture styling */
+#profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#profile-picture img {
+    width: 100%; /* Ensure image fills its container */
+    max-width: 300px; /* Limit maximum width for better responsiveness */
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block; /* Ensure it behaves as a block element */
+    margin: 0 auto; /* Center-align image */
+}
+
+/* Home section styling */
+#home {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #d3d3d3 70%, #5c4033 100%);
+    border-radius: 8px;
+}
+
+/* Current info section styling */
+#current-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #5c4033; /* Brown color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #fff; /* Thick white border */
+}
+
+#time {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#current-day {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #5c4033; /* Brown background */
+    color: #fff; /* White text color */
+    border: 2px solid #fff; /* White border */
+    font-weight: bold;
+}
+
+/* Future plans section styling */
+#future-plans {
+    text-align: center; /* Center-align text */
+    margin-bottom: 20px;
+}
+
+/* Footer section styling */
+#footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Faded black color */
+    border-radius: 50px; /* Oval shape */
+    margin-top: 100px; /* Move upward by 100px */
+}
+
+.slack-details-button, .github-button {
+    text-decoration: none;
+    color: #000; /* Black text color */
+    background-color: #fff; /* White background color */
+    border: 2px solid #000; /* Thick black border */
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slack-details-button:hover, .github-button:hover {
+    background-color: #f0f0f0; /* Lighter cream on hover */
+}
+
+.footer-text {
+    color: #fff; /* White text color */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
