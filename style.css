@@ -71,7 +71,7 @@ body {
     width: 100%; /* Ensure image fills its container */
     max-width: 300px; /* Limit maximum width for better responsiveness */
     height: auto;
-    border-radius: 50%; /* Make the image circular */
+    /* border-radius: 50%;  */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: block; /* Ensure it behaves as a block element */
     margin: 0 auto; /* Center-align image */
